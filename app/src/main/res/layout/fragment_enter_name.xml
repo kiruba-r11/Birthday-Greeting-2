@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirthdayFragments.EnterNameFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ribbon"
+        android:scaleType="centerCrop"/>
+
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textColor="@color/pink"
+        android:textColorHint="@color/pink"
+        android:backgroundTint="@color/pink"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"/>
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/pink"
+        android:text="VIEW"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"/>
+
+</FrameLayout>
